@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import NaviBar from "./component/navi-bar/naviBar"
 
 class App extends Component{
   gameName="星际争霸2";
@@ -17,8 +18,10 @@ class App extends Component{
   render(){
     return (
       <div className="panel panel-primary">
+        
         <div className="panel-heading">
-          游戏名：{this.gameName}
+        <NaviBar>Hello</NaviBar>
+          {/* 游戏名：{this.gameName} */}
         </div>
         <div className="panel-body">
           <p>
