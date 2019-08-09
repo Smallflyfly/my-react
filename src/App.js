@@ -4,6 +4,7 @@ import './App.css';
 import NaviBar from "./component/navi-bar/naviBar"
 import SiderBar from "./component/sider-bar/siderBar"
 import Banner from './component/banner/Banner'
+import PostList from "./component/post-list/post-list"
 
 class App extends Component{
   render(){
